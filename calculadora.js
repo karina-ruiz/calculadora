@@ -4,6 +4,7 @@ var resultado = document.querySelectorAll(".numeros");
 
 botones.forEach(boton => {
     boton.addEventListener("click", () => {
+
         const botonApretado = boton.textContent;
         if (boton.id === "c") {
             ventana.textContent = "0";
@@ -17,15 +18,21 @@ botones.forEach(boton => {
             }
          return;
         }
-
+        if (boton.id === "igual") {
+            try {
+                ventana.textContent = eval (ventana.textContent);
+            } catch {
+                ventana.textContent = "Error!";
+            }
+            
+            return; 
+        }
         if(ventana.textContent === "0" || ventana.textContent === "Error!") {
             ventana.textContent = botonApretado;
-        } else {
-            ventana.textContent += botonApretado
-        }
-        if (boton.id === "suma") {
-        } else {
-           resultado = boton.value;
-        }
+        } else if(ventana.textContent.length < 13){
+                ventana.textContent += botonApretado;
+        } 
+        
+        
     })
 })

@@ -39,13 +39,16 @@
     outline: none !important;
 }
 #borrar {
-width: 4cm;
 margin-top: 3cm;
-margin-left: 2em;
 }
 #c {
-    width: 4cm;
     margin-top: 3cm;
+}
+#m-mas {
+    margin-top: 3cm;  
+}
+#m-c {
+    margin-top: 3cm;  
 }
 body {
     font-family: Oswald;
