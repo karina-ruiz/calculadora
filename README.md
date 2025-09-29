@@ -1,20 +1,45 @@
-<h1 align="center">🧮 Mi primer Calculadora</h1>
+# 🧮 Mi primera calculadora
 
-<p align="center">
-  <img src="./assets/imagen-de-calculadora.png" alt="Vista previa de la calculadora" width="710" height="566" />
-</p>
+## 📌 Descripción
+Esta es una **calculadora web** desarrollada con **HTML, CSS y JavaScript puro**, que permite realizar operaciones matemáticas básicas con un diseño responsivo y botones interactivos.  
+El proyecto fue creado para practicar la manipulación del **DOM**, el manejo de **eventos** y la lógica en **JavaScript**.
 
-<h2>📌 Descripción</h2>
-<p>Esta es una <strong>calculadora web</strong> desarrollada con <strong>HTML, CSS y JavaScript puro</strong>, que permite realizar operaciones matemáticas básicas con un diseño responsivo y botones interactivos.  
-El proyecto fue creado para practicar la manipulación del <strong>DOM</strong>, el manejo de <strong>eventos</strong> y la lógica en <strong>JavaScript</strong>.</p>
+## 🖼️ Vista previa
+![Vista previa de la calculadora](./assets/imagen-de-calculadora.png)  
+*(Puedes grabar un **GIF** mostrando cómo funciona y reemplazarlo aquí para hacerlo más dinámico 🔥)*
 
-<h2>⚙️ Instalación y uso</h2>
+## ⚡ Funcionalidades
+- 🔢 Operaciones básicas: suma, resta, multiplicación y división.
+- 🖱️ Botones interactivos con eventos `click`.
+- 🎨 Diseño con CSS simple y limpio.
+- ⚡ Lógica implementada con JavaScript puro (`forEach`, `addEventListener`, `eval`).
+- ❌ Manejo de errores en operaciones inválidas (**Error!**).
 
-<p>1. Clona el repositorio:</p>
-<p><code>git clone https://github.com/karina-ruiz/calculadora-js.git</code></p>
+## 🛠️ Tecnologías utilizadas
+![Tecnologías](https://skillicons.dev/icons?i=html,css,js)
 
-<p>2. Entra a la carpeta del proyecto:</p>
-<p><code>cd calculadora-js</code></p>
+## ⚙️ Instalación y uso
+1. Clona el repositorio:  
+   ```bash
+   git clone https://github.com/karina-ruiz/calculadora-js.git
+   ```
 
-<p>3. Abre el archivo <code>index.html</code> en tu navegador.<br>
-(No requiere servidor ni instalación adicional)</p>
+2. Ingresa a la carpeta del proyecto:  
+   ```bash
+   cd calculadora-js
+   ```
+
+3. Abre el archivo `index.html` en tu navegador.  
+   *(No requiere servidor ni instalación adicional)*
+
+## 👩‍💻 Autor
+**Karina Guadalupe Ruiz Marcial**  
+📌 GitHub: [@karina-ruiz](https://github.com/karina-ruiz)  
+
+## 📄 Licencia
+Este proyecto está bajo la licencia MIT. Consulta el archivo [LICENSE](./LICENSE) para más información.
+
+## 🚀 Mejoras futuras
+- Agregar historial de operaciones.
+- Implementar teclado numérico virtual.
+- Validación más robusta de entradas.
